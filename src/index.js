@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //let li = document.createElement("li");
     tasks.appendChild(input);
     //li.innerHTML = input;
-    event.preventDefault();
+    event.preventDefault(); return false;
   });
 
 

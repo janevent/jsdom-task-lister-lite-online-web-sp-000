@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelector('[type=submit]').addEventListener("click", function(event){
+  document.querySelector('form').addEventListener("submit", function(event){
     let input = document.getElementById("new-task-description").value;
 
     let tasks = document.getElementById("tasks");

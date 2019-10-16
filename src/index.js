@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tasks.appendChild("li");
     li.innerHTML = input;
     event.preventDefault();
-  }, false);
+  });
 
 
 })
